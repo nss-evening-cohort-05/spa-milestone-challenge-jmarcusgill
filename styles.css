@@ -1,0 +1,11 @@
+body {
+  background-color: navajowhite;
+}
+
+.navBar {
+  display: inline-block;
+}
+
+.thumbnail {
+  height: 500px;
+}

@@ -9,3 +9,8 @@ body {
 .thumbnail {
   height: 500px;
 }
+
+.carCard {
+  border: 1px solid black;
+  padding: 0px 2px 0px 2px;
+}

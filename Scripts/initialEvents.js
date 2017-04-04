@@ -21,7 +21,6 @@ var submitBtn = document.getElementById("submit");
 
   function newBio(event){
     var currentlySelected = document.getElementsByClassName("border");
-    console.log(currentlySelected)
     var editDescription = currentlySelected[0].lastElementChild.childNodes[3];
     editDescription.innerHTML = "";
     var mimicWords = userInput.value;

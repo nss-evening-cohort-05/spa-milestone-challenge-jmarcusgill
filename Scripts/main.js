@@ -5,6 +5,9 @@ oldCarLot.populatePage = function (inventory) {
   var carOutput = document.getElementById("output");
   var carBuilder = "";
   for (var i = 0; i < inventory.length; i++) {
+    if( i%3 === 0) {
+      carBuilder += `<div class="row">`;
+    }
     var currentcar = inventory[i];
     carBuilder += `<div class="col-sm-6 col-md-4 carCard">`;
     carBuilder += `<div class="thumbnail">`;
@@ -16,6 +19,9 @@ oldCarLot.populatePage = function (inventory) {
     carBuilder += `<div class="description"><p> ${currentcar.description} </p></div>`;
     carBuilder += `<h4> $${currentcar.price} </h4>`;
     carBuilder += `</div></div></div>`;
+    if(i%2 === 2){
+      carBuilder +=`<div>`
+    }
   }
   carOutput.innerHTML += carBuilder;
   // Now that the DOM is loaded, establish all the event listeners needed

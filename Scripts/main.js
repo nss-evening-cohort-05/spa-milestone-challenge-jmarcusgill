@@ -6,7 +6,6 @@ oldCarLot.populatePage = function (inventory) {
   var carBuilder = "";
   for (var i = 0; i < inventory.length; i++) {
     var currentcar = inventory[i];
-    // console.log("this is current car", currentcar)
     carBuilder += `<div class="col-sm-6 col-md-4 carCard">`;
     carBuilder += `<div class="thumbnail">`;
     carBuilder += `<img class="imgSize" src="${currentcar.url}">`

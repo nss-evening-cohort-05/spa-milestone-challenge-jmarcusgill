@@ -84,6 +84,7 @@ var CarLot = (function () {
 ###### To run this project paste the following into your terminal and run http-server.
 
   `git clone git@github.com:nss-evening-cohort-05/spa-milestone-challenge-jmarcusgill.git`
+
   `cd spa-milestone-challenge-jmarcusgill`
   `http-server (needs node installation)`
   `http://127.0.0.1:8080/ (paste into browser window)

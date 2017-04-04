@@ -36,27 +36,3 @@ var submitBtn = document.getElementById("submit");
 
   return oldCarLot;
 })(CarLot || {});
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // console.log("inside events")
-
-    // userInput.addEventListener("keyup", function(){
-    //   oldCarLot.clearValue();
-    // });
-
-    // window.addEventListener("click", function(event){
-    //   oldCarLot.removeBorder(event);
-    //   // oldCarLot.addBorder(event);
-    //   // oldCarLot.editDescription(event);
-    // });

@@ -1,17 +1,60 @@
 var CarLot = (function(oldCarLot){
-  var userInput = document.getElementById("userInput");
 
+var userInput = document.getElementById("userInput");
+var description = document.getElementsByClassName("description");
+var editCard = document.getElementsByClassName("thumbnail");
+var section = document.getElementsByClassName("carCard");
 
   oldCarLot.activateEvents = function() {
-    console.log("inside events")
-
-    userInput.addEventListener("keyup", function(){
-      oldCarLot.clearValue();
-    })
-
-
+    for (var j = 0; j < editCard.length; j++){
+      editCard[j].addEventListener("click", function(){
+        var currentlySelected = document.getElementsByClassName("border");
+        for (var k = 0; k < currentlySelected.length; k++) {
+          currentlySelected[k].classList.remove("border");
+        }
+        this.classList.add("border")
+        userInput.focus();
+      })
+    }
+  };
+  userInput.addEventListener("keypress", function(event){
+    var currentlySelected = document.getElementsByClassName("border");
+    var editDescription = currentlySelected[0].lastElementChild.childNodes[3];
+    editDescription.innerHTML = "";
+    var mimicWords = userInput.value;
+    editDescription.innerHTML += mimicWords;
+  });
+  userInput.addEventListener("keypress", clearInput);
+    function clearInput(e){
+    if (e.keyCode === 13) {
+      userInput.value = "";
+    }
   };
 
 
   return oldCarLot;
 })(CarLot || {});
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // console.log("inside events")
+
+    // userInput.addEventListener("keyup", function(){
+    //   oldCarLot.clearValue();
+    // });
+
+    // window.addEventListener("click", function(event){
+    //   oldCarLot.removeBorder(event);
+    //   // oldCarLot.addBorder(event);
+    //   // oldCarLot.editDescription(event);
+    // });

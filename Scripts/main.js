@@ -16,11 +16,11 @@ oldCarLot.populatePage = function (inventory) {
     carBuilder += `<h3> ${currentcar.make} </h3>`;
     carBuilder += `<h3> ${currentcar.model} </h3>`;
     carBuilder += `<h3> ${currentcar.year} </h3>`;
-    carBuilder += `<div class="description"><p> ${currentcar.description} </p></div>`;
+    carBuilder += `<div class="description"><p> ${currentcar.description} </p>`;
     carBuilder += `<h4> $${currentcar.price} </h4>`;
-    carBuilder += `</div></div></div>`;
-    if(i%2 === 2){
-      carBuilder +=`<div>`
+    carBuilder += `</div></div></div></div>`;
+    if(i%3 === 2){
+      carBuilder +=`</div>`
     }
   }
   carOutput.innerHTML += carBuilder;

@@ -1,24 +1,47 @@
 {
-  "cars": [{
-    "make": "Jeep",
-    "model": "Comanche",
-    "year": "1988",
-    "url": "https://www.hemmings.com/blog/wp-content/uploads//2014/05/1988jeepcomanche_01_1000-700x428.jpg",
-    "price": "8999",
-    "description": "This is an immaculate 1988 Jeep Comanche with only 25000 miles on it. Leather seats, power everything."
-  }, {
-    "make": "Jeep",
-    "model": "Wrangler",
-    "year": "1991",
-    "url": "http://cdn.barrett-jackson.com/staging/carlist/items/Fullsize/Cars/132899/132899_Front_3-4_Web.jpg",
-    "price": "8999",
-    "description": "This is an immaculate 1991 Jeep Wrangler with only 25000 miles on it. Leather seats, power everything."
-  }, {
-    "make": "Jeep",
-    "model": "Cherokee",
-    "year": "1994",
-    "url": "http://carphotos.cardomain.com/ride_images/3/3486/3641/33714320001_large.jpg",
-    "price": "8999",
-    "description": "This is an immaculate 1994 Jeep Cherokee with only 25000 miles on it. Leather seats, power everything."
-  }]
+    "cars": [{
+            "make": "Jeep",
+            "model": "Comanche",
+            "year": "1988",
+            "url": "https://www.hemmings.com/blog/wp-content/uploads//2014/05/1988jeepcomanche_01_1000-700x428.jpg",
+            "price": "8999",
+            "description": "This is an immaculate 1988 Jeep Comanche with only 25000 miles on it. Leather seats, power everything."
+        }, {
+            "make": "Jeep",
+            "model": "Wrangler",
+            "year": "1991",
+            "url": "http://cdn.barrett-jackson.com/staging/carlist/items/Fullsize/Cars/132899/132899_Front_3-4_Web.jpg",
+            "price": "8999",
+            "description": "This is an immaculate 1991 Jeep Wrangler with only 25000 miles on it. Leather seats, power everything."
+        }, {
+            "make": "Jeep",
+            "model": "Cherokee",
+            "year": "1994",
+            "url": "http://carphotos.cardomain.com/ride_images/3/3486/3641/33714320001_large.jpg",
+            "price": "8999",
+            "description": "This is an immaculate 1994 Jeep Cherokee with only 25000 miles on it. Leather seats, power everything."
+        }, {
+            "make": "Jeep",
+            "model": "Patriot",
+            "year": "2007",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jeep_Patriot.jpg/1200px-Jeep_Patriot.jpg",
+            "price": "8999",
+            "description": "This is an immaculate 1991 Jeep Patriot with only 25000 miles on it. Leather seats, power everything."
+        }, {
+            "make": "Jeep",
+            "model": "Compass",
+            "year": "2012",
+            "url": "https://2.bp.blogspot.com/-u8cxF7K6HH0/V-smxRv8_hI/AAAAAAABemA/E8mgSkCHAMwvdYsgbNR-SJNSEvWU_EGgwCLcB/s1600/Jeep-Compass-Longitude-65655.jpg",
+            "price": "8999",
+            "description": "This is an immaculate 1991 Jeep Compass with only 25000 miles on it. Leather seats, power everything."
+        }, {
+            "make": "Jeep",
+            "model": "Renegade",
+            "year": "1987",
+            "url": "https://s3.amazonaws.com/cjjeepbuilders/featuredImage/IMG_33221.jpg",
+            "price": "8999",
+            "description": "This is an immaculate 1991 Jeep Renegade with only 25000 miles on it. Leather seats, power everything."
+        }
+
+    ]
 }

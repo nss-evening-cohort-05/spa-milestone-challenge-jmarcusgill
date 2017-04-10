@@ -14,6 +14,7 @@ var submitBtn = document.getElementById("submit");
         }
         this.classList.add("border")
         userInput.focus();
+        userInput.value = "";
       })
     }
   };

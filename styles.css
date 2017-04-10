@@ -6,16 +6,21 @@ body {
   display: inline-block;
 }
 
+
 .thumbnail {
   height: 500px;
 }
 
-.imgSize {
+img.imgSize {
+  height: 50%;
   width: 100%;
-  margin: 0 auto;
 }
 
 .border {
   border: 1px solid green;
   background-color: tomato;
+}
+
+.carCard{
+margin: auto;
 }

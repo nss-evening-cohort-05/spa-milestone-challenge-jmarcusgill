@@ -16,11 +16,11 @@ Use an IIFE structure to load JSON data and dynamically create cards displaying 
 
 ### Technologies used:
 
--HTML
--CSS
--Bootstrap
--Javascript
--JSON
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- JSON
 
 ### Finished project:
 ![jeepers](./jeepers.png)
